@@ -1,0 +1,14 @@
+# requirements for running hls server (using index.js)
+1. hls-server
+
+# to install the package try this tutorial
+# make sure to install the package locally
+https://www.tutorialsteacher.com/nodejs/what-is-node-package-manager
+
+
+
+# requirements for generating video stream (using file stream.py)
+1. python-ffmpeg-video-streaming (https://pypi.org/project/python-ffmpeg-video-streaming/)
+# make sure you have installed ffmpeg and ffprobe first (https://ffmpeg.org/download.html)
+
+
