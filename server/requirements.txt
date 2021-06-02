@@ -5,7 +5,7 @@ python==3.7.10
 tensorflow==2.5.0
 cv2==4.1.2
 flask==1.1.4
-flask_ngrok==0.0.25
+#flask_ngrok==0.0.25
 PIL==7.1.2
 numpy==1.19.5
 pyfcm==1.5.1
