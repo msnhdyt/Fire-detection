@@ -23,14 +23,13 @@ To run this project, ensure you have:
 ## Code information
     + hls-server
       + streams                   # video streams folder
+      + cctv.mp4
       + index.js                  # code to run hls server
       + file stream.py            # code to generate video stream
       + requirements.txt
     + Model
-      + fire_detection.h5
       + fire_detection_v2.h5
-      + fire_detection.ipynb
-      + fire_detection_v2.ipynb
+      + Fire_Detection_v2.ipynb
     + server
       + main.py                   # code to run main server
       + requirements.txt
