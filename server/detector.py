@@ -9,7 +9,7 @@ from os.path import dirname, abspath
 class Detector:
     def __init__(self, input_url):
         self.url = input_url
-        self.model = tf.keras.models.load_model(dirname(dirname(abspath(__file__))) + "/Model/fire_detection_v2.h5")
+        self.model = tf.keras.models.load_model(dirname(dirname(abspath(__file__))) + "/Model/Fire_Detection_v2.h5")
         self._running = True
         self.fire_detected = False
         self.detected_img = None
