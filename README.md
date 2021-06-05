@@ -39,7 +39,7 @@ To run this project, ensure you have:
 
 ## Documentation 
 
-<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/1.png?raw=true" alt="1" style="zoom:15%;" />
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/1.png?raw=true" alt="1" style="zoom:15%;" width="1000" />
 
 <img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/2.png?raw=true" alt="1" style="zoom:15%;" />
 
