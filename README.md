@@ -1,5 +1,8 @@
 # Fire-detection
+
 Bangkit Capstone Project (B21-CAP0484)
+
+![logo](https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/asset/logo.png?raw=true)
 
 This project implemented machine learning to detect fire from HLS video stream and then will send notifications to the android app. We used dataset from [kaggle](https://www.kaggle.com/tharakan684/urecamain)
 
@@ -15,7 +18,7 @@ To run this project, ensure you have:
 `python server/main.py`
 - install the android app
 - to get notifications, please click `turn on` first in the app. You will be notified if fire was detected. (or you can request to `localhost/turn_on`)
-- if you get a notification there is a fire detected, go to `Notification Menu`, then you can click `get Image` to get the frame of the video. (or you can request to `localhost/get_status`)
+- if you get a notification there is a fire detected, go to `Menu` → `Notification`, then you can click `get Image` to get the frame of the video. (or you can request to `localhost/get_status`)
 
 ## Flowchart
 ![flowchart capstone](https://user-images.githubusercontent.com/56325833/120769525-6c953600-c547-11eb-9683-1a6f201ee94b.jpeg)
