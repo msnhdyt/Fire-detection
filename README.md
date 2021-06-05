@@ -22,23 +22,23 @@ To run this project, ensure you have:
 
 ## Code information
     + hls-server
-      + streams                   # video streams folder
+      + streams			# video streams folder
       + cctv.mp4
-      + index.js                  # code to run hls server
-      + file stream.py            # code to generate video stream
+      + index.js			# code to run hls server
+      + file stream.py			# code to generate video stream
       + requirements.txt
     + Model
       + fire_detection_v2.h5
       + Fire_Detection_v2.ipynb
     + server
-      + main.py                   # code to run main server
+      + main.py			# code to run main server
       + requirements.txt
       + detector.py
     + Firewatch
-      + app				# App Resources
+      + app			# App Resources
       + asset			# Logo Firewatch
       + gradle/wrapper
-      + Firewatch.apk	# Application Firewatch
+      + Firewatch.apk			# Application Firewatch
 
 ## Member
 
