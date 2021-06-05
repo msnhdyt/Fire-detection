@@ -9,12 +9,10 @@ Bangkit Capstone Project<br/>
 (B21-CAP0484)
 </p>
 
-
-<p align="center">
 This project implemented machine learning to detect fire from HLS video stream and then will send notifications to the android app. We used dataset from [kaggle](https://www.kaggle.com/tharakan684/urecamain)
-</p>
 
 ## Table of Contents
+
 1. [Requierements](#requierements)
 2. [Installation](#installation)
 3. [Flowchart](#flowchart)
