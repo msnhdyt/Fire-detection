@@ -25,7 +25,7 @@ To run this project, ensure you have:
       + streams			# video streams folder
       + cctv.mp4
       + index.js			# code to run hls server
-      + file stream.py			# code to generate video stream
+      + file stream.py		# code to generate video stream
       + requirements.txt
     + Model
       + fire_detection_v2.h5
@@ -35,10 +35,10 @@ To run this project, ensure you have:
       + requirements.txt
       + detector.py
     + Firewatch
-      + app			# App Resources
+      + app				# App Resources
       + asset			# Logo Firewatch
       + gradle/wrapper
-      + Firewatch.apk	# Application Firewatch
+      + Firewatch.apk		# Application Firewatch
 
 ## Member
 
