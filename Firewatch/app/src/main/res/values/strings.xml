@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Firewatch</string>
+    <string name="image_logo">Image Logo</string>
+    <string name="title_activity_navigate_drawer">NavigateDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="notification">notification</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_about">About</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_version">Version v1.0.0</string>
+
+    <string name="floating_email">floating_email</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="msg_token_fmt">token: </string>
+    <string name="notification_channel_id">Default</string>
+    <string name="image_fire_detected">Image Fire Detected</string>
+    <string name="fire_detector">Check Fire Detector</string>
+    <string name="fire_or_no_fire">Fire or No Fire</string>
+    <string name="email_bangkit">B21-CAP0484@bangkit.academy</string>
+    <string name="group_bangkit">Group: CAP0484</string>
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_500"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/img_logo_about"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/image_logo"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="@string/group_bangkit"
+        android:textColor="#cdcdcd"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/img_logo_about"
+        app:layout_constraintStart_toStartOf="@+id/img_logo_about"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo_about" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="270dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/email_bangkit"
+        android:textColor="#cdcdcd"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:stretchColumns="1"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:layout_weight="2"
+                android:text="Member"
+                android:textColor="#cdcdcd"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="50dp"
+                android:padding="3dip"
+                android:text="Ahmad Try Bayu Al Haq"
+                android:textColor="#cdcdcd" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="A3322963"
+                android:textColor="#cdcdcd" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="50dp"
+                android:padding="3dip"
+                android:text="M Alfin Nurdiansyah"
+                android:textColor="#cdcdcd" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="A3322967"
+                android:textColor="#cdcdcd" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="50dp"
+                android:padding="3dip"
+                android:text="Barin Khalifamadani Anantapasha"
+                android:textColor="#cdcdcd" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="C0111137"
+                android:textColor="#cdcdcd" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="50dp"
+                android:padding="3dip"
+                android:text="Nathanael Victorious"
+                android:textColor="#cdcdcd" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="C3252917"
+                android:textColor="#cdcdcd" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginEnd="50dp"
+                android:padding="3dip"
+                android:text="Muhamad Syifa Nurhidayat"
+                android:textColor="#cdcdcd" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="M0111144"
+                android:textColor="#cdcdcd" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/text_home"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:layout_marginEnd="8dp"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="#cdcdcd"-->
+    <!--        android:textSize="20sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

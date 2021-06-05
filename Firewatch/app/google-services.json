@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "632315936603",
+    "project_id": "bangkit-firewatch",
+    "storage_bucket": "bangkit-firewatch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632315936603:android:eda43e56812a5bfb06247e",
+        "android_client_info": {
+          "package_name": "com.bangkit.firewatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632315936603-j1gfpegcfm5kc7q4828fmvad7vh8fjcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyBtnU628tvyOKittcvh85DS31EvMe2d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632315936603-j1gfpegcfm5kc7q4828fmvad7vh8fjcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
