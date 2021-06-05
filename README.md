@@ -35,10 +35,10 @@ To run this project, ensure you have:
       + requirements.txt
       + detector.py
     + Firewatch
-      + app						# App Resources
-      + asset					# Logo Firewatch
+      + app				# App Resources
+      + asset			# Logo Firewatch
       + gradle/wrapper
-      + Firewatch.apk			 # Application Firewatch
+      + Firewatch.apk	# Application Firewatch
 
 ## Member
 
