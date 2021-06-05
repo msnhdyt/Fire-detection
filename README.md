@@ -1,13 +1,25 @@
 # Fire-detection
 
-Bangkit Capstone Project (B21-CAP0484)
-
 <p align="center">
      <img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/asset/logo.png?raw=true ">
 </p>
 
+<p align="center" >
+Bangkit Capstone Project<br/>
+(B21-CAP0484)
+</p>
 
+
+<p align="center">
 This project implemented machine learning to detect fire from HLS video stream and then will send notifications to the android app. We used dataset from [kaggle](https://www.kaggle.com/tharakan684/urecamain)
+</p>
+
+## Table of Contents
+1. [Requierements](#requierements)
+2. [Installation](#installation)
+3. [Flowchart](#flowchart)
+4. [Code information](#code-information)
+5. [Member](#member)
 
 ## Requierements
 To run this project, ensure you have:
