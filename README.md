@@ -16,8 +16,9 @@ This project implemented machine learning to detect fire from HLS video stream a
 1. [Requierements](#requierements)
 2. [Installation](#installation)
 3. [Flowchart](#flowchart)
-4. [Code information](#code-information)
-5. [Member](#member)
+4. [Documentation ](#documentation )
+5. [Code information](#code-information)
+6. [Member](#member)
 
 ## Requierements
 To run this project, ensure you have:
@@ -36,7 +37,26 @@ To run this project, ensure you have:
 ## Flowchart
 ![flowchart capstone](https://user-images.githubusercontent.com/56325833/120769525-6c953600-c547-11eb-9683-1a6f201ee94b.jpeg)
 
+## Documentation 
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/1.png?raw=true" alt="1" style="zoom:15%;" />
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/2.png?raw=true" alt="1" style="zoom:15%;" />
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/3.png?raw=true" alt="1" style="zoom:15%;" />
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/4.png?raw=true" alt="1" style="zoom:15%;" />
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/5.png?raw=true" alt="1" style="zoom:15%;" />
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/6.png?raw=true" alt="1" style="zoom:15%;" />
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/7.png?raw=true" alt="1" style="zoom:15%;" />
+
+<img src="https://github.com/msnhdyt/Fire-detection/blob/main/Firewatch/Screenshot/8.png?raw=true" alt="1" style="zoom:15%;" />
+
 ## Code information
+
     + hls-server
       + streams			# video streams folder
       + cctv.mp4
@@ -58,7 +78,7 @@ To run this project, ensure you have:
 
 ## Member
 
-1. Android
+1. Mobile Programming
    * A3322963 - Ahmad Try Bayu Al Haq
    * A3322967 - M Alfin Nurdiansyah
 2. Cloud Computing
@@ -66,3 +86,4 @@ To run this project, ensure you have:
    * C3252917 - Nathanael Victorious
 3. Machine Learning
    * M0111144 - Muhamad Syifa Nurhidayat
+
