@@ -38,7 +38,7 @@ To run this project, ensure you have:
       + app			# App Resources
       + asset			# Logo Firewatch
       + gradle/wrapper
-      + Firewatch.apk			# Application Firewatch
+      + Firewatch.apk	# Application Firewatch
 
 ## Member
 
