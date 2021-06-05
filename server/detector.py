@@ -9,7 +9,7 @@ from os.path import dirname, abspath
 class Detector:
     def __init__(self, input_url):
         self.url = input_url
-        self.model = tf.keras.models.load_model(dirname(dirname(abspath(__file__))) + "/Model/Fire_Detection_v2.h5")
+        self.model = tf.keras.models.load_model(dirname(dirname(abspath(__file__))) + "/Model/Fire_Detection_v4.h5")
         self._running = True
         self.fire_detected = False
         self.detected_img = None
@@ -28,8 +28,9 @@ class Detector:
             else:
                 print("stream end")
                 break
-            img = cv2.resize(frame, (300, 300))
+            img = cv2.resize(frame, (224, 224)).astype('float32')
             img = tf.expand_dims(img, axis=0)
+            img = tf.keras.applications.mobilenet_v2.preprocess_input(img)
             prediction = self.model.predict(img)
 
             if prediction[0][0] >0:
