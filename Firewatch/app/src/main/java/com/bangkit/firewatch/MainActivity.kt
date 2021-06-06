@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
 
             val queue = Volley.newRequestQueue(this)
-            val url = "https://0783c861cb8b.ngrok.io/get_status"
+            val url = "https://1caccf0db0e5.ngrok.io/get_status"
             val stringRequest = StringRequest(
                 Request.Method.GET, url,
                 { response ->

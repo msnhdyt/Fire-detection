@@ -2,6 +2,7 @@ package com.bangkit.firewatch.ui.home
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -59,8 +60,13 @@ class HomeFragment : Fragment() {
 
                     val r = Random()
                     val random: Int = r.nextInt(max - min + 1) + min
+
                     val queue = Volley.newRequestQueue(binding.root.context)
-                    val urlOn = "https://0783c861cb8b.ngrok.io/turn_on"
+                    val urlOn: String = if (isChecked) {
+                        "https://1caccf0db0e5.ngrok.io/turn_on"
+                    } else {
+                        ""
+                    }
                     val stringRequest1 = StringRequest(Request.Method.GET, urlOn,
                         { response ->
 //                            Toast.makeText(
