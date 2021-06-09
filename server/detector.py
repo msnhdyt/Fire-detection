@@ -1,3 +1,4 @@
+# reference: https://github.com/Rocksus/object-detection-hls/blob/master/internal/detector.py
 import tensorflow as tf
 import sys
 import numpy as np
