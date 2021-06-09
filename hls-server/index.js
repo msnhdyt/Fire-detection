@@ -1,3 +1,4 @@
+# reference: https://github.com/Rocksus/object-detection-hls/blob/master/generator/index.js
 const HLSServer = require('hls-server');
 const http = require('http');
 const path = require('path');
